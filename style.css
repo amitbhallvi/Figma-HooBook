@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #00040f, #00111c);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00f6ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00f6ff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.badge {
+  background: #272727;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #00f6ff;
+}
+
+.description {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.cta-button {
+
+  /* Group 481768 */
+
+position: absolute;
+width: 140px;
+height: 140px;
+left: 400px;
+top: 160px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+  padding: 12px 15px;
+  color: #00f6ff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #00f6ff;
+  border-radius:50%;
+  /* display: inline-block; */
+  margin-bottom: 40px;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+  font-size: 0.95rem;
+  flex-wrap: wrap;
+}
+
+.stats span strong {
+  color: #00f6ff;
+}
+
+.hero-image-section {
+
+
+  width: 600px;
+  height: 300px;
+  background-color: burlywood;
+  position: absolute;
+  top: 120px;
+  left: 700px;
+
+
+
+
+
+}
+.hero-image-01 {
+
+  /* z-index: 1000px; */
+
+}
+
+.hero-image-02 {
+  width: 195px;
+  height: 295px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 220px;
+  top: 170px;
+  background: linear-gradient(170.28deg, rgba(255, 255, 255, 0.7) -64.13%, rgba(249, 249, 249, 0.175336) 42.44%, rgba(249, 249, 249, 0.1) 95.43%, rgba(255, 255, 255, 0.2) 95.43%);
+  /* backdrop-filter: blur(4.5px); */
+  /* background-color: transparent; */
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  transform: matrix(0.87, 0.5, -0.87, 0.5, 0, 0);
+
+}
