@@ -121,7 +121,7 @@ text-align: center;
 
   width: 600px;
   height: 300px;
-  background-color: burlywood;
+  /* background-color: burlywood; */
   position: absolute;
   top: 120px;
   left: 700px;
